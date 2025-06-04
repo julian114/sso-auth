@@ -50,12 +50,12 @@
                     <hr class="flex-grow-1">
                 </div>
                 
-                <div class="d-grid">
+                <!--<div class="d-grid">
                     <a href="/login/microsoft" class="btn btn-outline-secondary btn-lg d-flex align-items-center justify-content-center">
                         <i class="ti ti-brand-microsoft me-2" style="font-size: 1.2rem;"></i>
                         Iniciar sesión con Microsoft 365
                     </a>
-                </div>
+                </div>-->
             </VForm>
 
         </div>

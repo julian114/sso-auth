@@ -3,7 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
-use App\Http\Controllers\Auth\MicrosoftController;
+//use App\Http\Controllers\Auth\MicrosoftController;
 
 /*--------------------------------------------------------------------------
 | Index                                                                    |
@@ -15,8 +15,8 @@ Route::post('/logout', [PublicController::class, 'destroy'])->middleware('auth')
 /*--------------------------------------------------------------------------
 | Microsoft OAuth                                                          |
 |--------------------------------------------------------------------------*/
-Route::get('/login/microsoft', [MicrosoftController::class, 'redirectToMicrosoft'])->name('microsoft.login');
-Route::get('/login/microsoft/callback', [MicrosoftController::class, 'handleMicrosoftCallback'])->name('microsoft.callback');
+//Route::get('/login/microsoft', [MicrosoftController::class, 'redirectToMicrosoft'])->name('microsoft.login');
+//Route::get('/login/microsoft/callback', [MicrosoftController::class, 'handleMicrosoftCallback'])->name('microsoft.callback');
 
 /*--------------------------------------------------------------------------
 | Dashboard                                                                 |
